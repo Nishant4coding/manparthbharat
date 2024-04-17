@@ -19,12 +19,12 @@ function Hero() {
               ]}
               speed={50} // Custom Speed from 1-99 - Default Speed: 40
               // style={{ fontSize: '2em' }}
-              cursor={false}
+              cursor={true}
               className="text-teal-200 type lg:text-7xl md:text-5xl sm:text-7xl text-3xl font-bold relative"
               wrapper="span" // Animation will be rendered as a <span>
               repeat={Infinity} // Repeat this Animation Sequence infinitely
             />
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-40 mt-2 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
