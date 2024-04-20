@@ -2,9 +2,9 @@
 
 
 
-const BubbleUnderlay = dynamic(
-  () => import("@/components/ui/BubbleUnderLay")
-);
+// const BubbleUnderlay = dynamic(
+//   () => import("@/components/ui/BubbleUnderLay")
+// );
 
 import About from "@/components/About";
 import {  Faqs } from "@/components/Faqs";
@@ -34,7 +34,7 @@ export default function Home() {
   return (
    <>
 
-<BubbleUnderlay
+{/* <BubbleUnderlay
           className={clsx(
             "fixed",
             "top-0 left-0",
@@ -43,7 +43,7 @@ export default function Home() {
             "pointer-events-none",
             "select-none"
           )}
-        />
+        /> */}
    <div className=" h-screen">
     {/* <BackgroundBeams/> */}
     

@@ -15,7 +15,7 @@ export function Faqs() {
       <AccordionItem value="item-1">
         <AccordionTrigger>What is Training Program ?</AccordionTrigger>
         <AccordionContent className="lg:text-xl">
-          Manparth Bharat's team of experts is working tirelessly to create
+          Manparth Bharat&apos;s team of experts is working tirelessly to create
           cutting-edge educational content and training programs that can be
           accessed by anyone, anywhere.
         </AccordionContent>
@@ -24,7 +24,7 @@ export function Faqs() {
         <AccordionTrigger>What is the segmentations of the products and services ?
         </AccordionTrigger>
         <AccordionContent>
-          Manparth Bharat's products and services are designed to cater to a
+          Manparth Bharat&apos;s products and services are designed to cater to a
           wide range of audiences, including students, teachers, and educational
           institutions.
         </AccordionContent>
