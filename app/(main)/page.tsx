@@ -44,14 +44,13 @@ export default function Home() {
             "select-none"
           )}
         /> */}
-   <div className=" h-screen">
-    {/* <BackgroundBeams/> */}
-    
-   {/* <Navbar/> */}
+   <div className=" ">
+    <BackgroundBeams/>
+   <Navbar/>
    <Hero/>
+   <Wwa/>
    <About/>
    <Faqs/>
-   <Wwa/>
    <Footer/>
    </div>
    </>
