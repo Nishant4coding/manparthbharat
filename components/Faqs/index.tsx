@@ -7,10 +7,20 @@ import {
 
 export function Faqs() {
   return (
+
+    <div className="flex flex-row bg-black p-20 gap-20">
+        <div className="flex flex-col">
+        <span className="text-white font-bold text-xl">Need To Know --</span>
+
+        <div className="text-7xl text-[#FFD700] font-bold ">
+            Frequently Asked <span className="text-[#FF9900]">Questions</span>
+        </div>
+        </div>
+    
     <Accordion
       type="single"
       collapsible
-      className="w-full lg:pl-40 pl-5 lg:pr-40 pr-5 bg-black text-white text-left lg:text-2xl"
+      className="w-full border-2 bg-tranparent p-5 rounded-3xl text-white text-left lg:text-2xl"
     >
       <AccordionItem value="item-1">
         <AccordionTrigger>What is Training Program ?</AccordionTrigger>
@@ -39,5 +49,6 @@ export function Faqs() {
         </AccordionContent>
       </AccordionItem>
     </Accordion>
+    </div>
   );
 }

@@ -11,6 +11,7 @@ import {  Faqs } from "@/components/Faqs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Nav";
+import Testimonial from "@/components/Testimonials";
 import Wwa from "@/components/Wwa";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
@@ -48,6 +49,7 @@ export default function Home() {
     <BackgroundBeams/>
    <Navbar/>
    <Hero/>
+   {/* <Testimonial/> */}
    <Wwa/>
    <About/>
    <Faqs/>

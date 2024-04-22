@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Wwa() {
@@ -10,9 +12,9 @@ function Wwa() {
         <div className='text-white text-justify text-xl '>
         At Manparth, we are driven by a vision of fostering unity, wisdom, and enlightenment in society. Founded on the principles of humanity over religion, we believe in the power of education to transcend boundaries and create a harmonious world. Our mission is to redefine traditional paradigms and cultivate a holistic approach to learning that nurtures the mind, body, and spirit.
         </div>
-        <div>
-            button
-        </div>
+        <Link href='/'>
+            <Image src='/km.png' alt='know more' width={150} height={150}/>
+        </Link>
       </div>
       <div className='flex flex-col gap-10 w-2/3'>
         <div className='flex flex-col gap-5'>
