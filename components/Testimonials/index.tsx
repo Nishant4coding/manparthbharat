@@ -16,13 +16,13 @@ function Testimonial() {
             <div className="absolute mb-auto left-0 w-40 h-40 bg-[#FF9900] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100"></div>
           </div>
           <div className="mb-6 text-center sm:mb-4">
-            "This company made the whole process so smooth. Their team was
+            This company made the whole process so smooth. Their team was
             skilled, communicated clearly, and the final product was top-notch.
-            Definitely worth working with."
+            Definitely worth working with.
           </div>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?q=80&w=200"
                 alt="Alice"
                 className="size-12 rounded-full object-cover"
@@ -45,13 +45,13 @@ function Testimonial() {
             <div className="absolute mb-auto left-0 w-40 h-40 bg-[#FF9900] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100"></div>
           </div>
           <div className="mb-6 text-center sm:mb-4">
-            "This company made the whole process so smooth. Their team was
+            This company made the whole process so smooth. Their team was
             skilled, communicated clearly, and the final product was top-notch.
-            Definitely worth working with."
+            Definitely worth working with.
           </div>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?q=80&w=200"
                 alt="Alice"
                 className="size-12 rounded-full object-cover"
@@ -74,13 +74,13 @@ function Testimonial() {
             <div className="absolute mb-auto left-0 w-40 h-40 bg-[#FF9900] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100"></div>
           </div>
           <div className="mb-6 text-center sm:mb-4">
-            "This company made the whole process so smooth. Their team was
+            This company made the whole process so smooth. Their team was
             skilled, communicated clearly, and the final product was top-notch.
-            Definitely worth working with."
+            Definitely worth working with.
           </div>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div className="flex items-center gap-4">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1602233158242-3ba0ac4d2167?q=80&w=200"
                 alt="Alice"
                 className="size-12 rounded-full object-cover"
