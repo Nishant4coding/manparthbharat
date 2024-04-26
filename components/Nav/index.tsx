@@ -2,19 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";
 import Navlinks from "./Navlinks";
-import logo from '@/public/mlogo.png'
+import logo from "@/public/mlogo.png";
 
 function Navbar() {
   return (
-    <nav className="bg-black  fixed top-0 w-full z-10">
+    <nav className="bg-black  fixed top-0 w-full z-10 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse ">
-          <Image
-            src={logo}
-            className="w-20 lg:w-32 lg:h-32 h-20"
-            alt="Flowbite Logo"
-            
-          />
+        <a
+          href="#"
+          className="flex items-center space-x-3 rtl:space-x-reverse "
+        >
+          <Image src={logo} className="w-20 lg:w-20 lg:h-20 h-20" alt="Logo" />
           <span className="self-center lg:text-5xl text-xl font-semibold whitespace-nowrap text-white">
             Manparth
           </span>
@@ -57,28 +55,19 @@ function Navbar() {
                 Home
               </a>
             </li>
-            
+
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-white rounded "
-              >
+              <a href="#" className="block py-2 px-3 text-white rounded ">
                 Services
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-white"
-              >
+              <a href="#" className="block py-2 px-3 text-white">
                 Pricing
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="block py-2 px-3 text-white"
-              >
+              <a href="#" className="block py-2 px-3 text-white">
                 Contact
               </a>
             </li>

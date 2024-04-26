@@ -10,8 +10,8 @@ function Hero() {
     <div className=' justify-center items-center text-center'>
       <div className="relative w-full z-20">
 {/* <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div> */}
-    <div className="absolute top-0 right-0 lg:w-96 w-40 lg:h-96 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100"></div>
-    <div className="absolute lg:top-[80vh] top-[65vh] left-0 lg:w-96 w-40 lg:h-96 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+    <div className="absolute top-0 right-0 lg:w-96 w-40 lg:h-96 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100 pointer-events-none"></div>
+    <div className="absolute lg:top-[80vh] top-[65vh] left-0 lg:w-80 w-40 lg:h-80 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-4000 pointer-events-none"></div>
     </div>
     <div className="h-[52rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
     <TypeAnimation
