@@ -25,7 +25,7 @@ function BubbleUnderlay({
 
   // Default values
   const bubbleColors = [
-    "bg-sky-400",
+    "bg-[#FF9900]",
     "bg-yellow-600",
     "bg-amber-300",
     "bg-orange-400",

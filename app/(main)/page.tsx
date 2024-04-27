@@ -1,26 +1,19 @@
 "use client";
 
-const BubbleUnderlay = dynamic(
-  () => import("@/components/custom/Bubble")
-);
+const BubbleUnderlay = dynamic(() => import("@/components/custom/Bubble"));
 
-import About from "@/components/About";
-import { Faqs } from "@/components/Faqs";
-import Footer from "@/components/Footer";
-import Future from "@/components/Future";
-import Hero from "@/components/Hero";
-import Mission from "@/components/Mission";
-import Navbar from "@/components/Nav";
-import Testimonial from "@/components/Testimonials";
-import Wwa from "@/components/Wwa";
+import { Faqs } from "@/components/sections/Faqs";
+import Footer from "@/components/sections/Footer";
+import Future from "@/components/sections/Future";
+import Hero from "@/components/sections/Hero";
+import Mission from "@/components/sections/Mission";
+import Navbar from "@/components/sections/Nav";
+import Testimonial from "@/components/sections/Testimonials";
+import Wwa from "@/components/sections/Wwa";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import clsx from "clsx";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import dynamic from "next/dynamic";
-import Image from "next/image";
-import Link from "next/link";
-import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   const words = [
@@ -92,15 +85,15 @@ export default function Home() {
   return (
     <>
       <BubbleUnderlay
-          className={clsx(
-            "fixed",
-            "top-0 left-0",
-            "w-full h-full",
-            "z-10",
-            "pointer-events-none",
-            "select-none"
-          )}
-        />
+        className={clsx(
+          "fixed",
+          "top-0 left-0",
+          "w-full h-full",
+          "z-10",
+          "pointer-events-none",
+          "select-none"
+        )}
+      />
       <div className="bg-black z-20">
         <BackgroundBeams />
         <div className="">
@@ -123,7 +116,7 @@ export default function Home() {
           <Hero />
           <Wwa />
           {/* <About/> */}
-          <Future/>
+          <Future />
           <Mission />
           <Faqs />
           <Testimonial />
