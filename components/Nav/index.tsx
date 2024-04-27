@@ -12,7 +12,7 @@ function Navbar() {
           href="#"
           className="flex items-center space-x-3 rtl:space-x-reverse "
         >
-          <Image src={logo} className="w-20 lg:w-20 lg:h-20 h-20" alt="Logo" />
+          <Image src={logo} className="w-10 lg:w-20 lg:h-20 h-10" alt="Logo" />
           <span className="self-center lg:text-5xl text-xl font-semibold whitespace-nowrap text-white">
             Manparth
           </span>

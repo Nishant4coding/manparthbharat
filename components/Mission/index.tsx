@@ -4,22 +4,22 @@ import mission from "@/public/mission.png";
 
 function Mission() {
   return (
-    <div className="p-16 overflow-hidden">
+    
       <div
-        className="p-4 rounded-3xl "
+        className="lg:p-20 p-8   rounded-t-3xl "
         style={{
           backgroundImage: `url(${mission.src})`,
           backgroundSize: "cover",
           //   backgroundPosition: "center",
         }}
       >
-        <div className="flex flex-row gap-20">
+        <div className="flex lg:flex-row flex-col gap-20">
           <div className="flex flex-col gap-10 lg:w-3/5">
             <div className="flex flex-col gap-5">
               <div className="text-[#FF9900] lg:text-3xl text-2xl">
                 Our Mission
               </div>
-              <div className="text-white lg:text-xl text-sm">
+              <div className="text-white lg:text-xl text-sm text-justify">
                 At Manparth, our mission is to pioneer a paradigm shift in
                 education, fostering unity, compassion, and wisdom to transcend
                 the barriers of religion and culture. We are dedicated to
@@ -53,13 +53,13 @@ function Mission() {
               <hr />
             </div>
           </div>
-          <div className="text-[#FFD700] lg:text-7xl text-3xl text-right font-bold mt-auto ml-auto">
+          <div className="text-[#FFD700] lg:text-7xl text-3xl text-right font-bold mt-auto ml-auto hidden ">
             Our <span className="text-[#FF9900]">Mission</span> <br />
             and Vision
           </div>{" "}
         </div>
       </div>
-    </div>
+    
   );
 }
 

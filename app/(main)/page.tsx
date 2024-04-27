@@ -7,6 +7,7 @@
 import About from "@/components/About";
 import { Faqs } from "@/components/Faqs";
 import Footer from "@/components/Footer";
+import Future from "@/components/Future";
 import Hero from "@/components/Hero";
 import Mission from "@/components/Mission";
 import Navbar from "@/components/Nav";
@@ -102,7 +103,7 @@ export default function Home() {
         /> */}
       <div className=" ">
         <BackgroundBeams />
-        <div className="bg-black">
+        <div className="">
           <div className="hidden sm:flex flex-row max-w-full ml-auto z-30">
             <div className="ontop fixed flex px-1 h- items-center justify-center right-0">
               <div className="flex flex-col justify-center gap-y-6 items-center ">
@@ -122,6 +123,7 @@ export default function Home() {
           <Hero />
           <Wwa />
           {/* <About/> */}
+          <Future/>
           <Mission />
           <Faqs />
           <Testimonial />
