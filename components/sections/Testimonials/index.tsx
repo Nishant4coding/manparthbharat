@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import quote from "@/public/Assets/quote.svg";
 import logo from '@/public/mlogo.png'
-import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
+// import { Carousel, CarouselContent, CarouselItem } from "@/ui/carousel";
 
 function Testimonial() {
   return (
@@ -107,7 +107,7 @@ function Testimonial() {
 
 
 
-<Carousel>
+{/* <Carousel>
   <CarouselContent>
     <CarouselItem className="md:basis-1/2 lg:basis-1/3">...</CarouselItem>
     <CarouselItem className="md:basis-1/2 lg:basis-1/3">...</CarouselItem>
@@ -117,7 +117,7 @@ function Testimonial() {
     <CarouselItem className="md:basis-1/2 lg:basis-1/3">...</CarouselItem>
     <CarouselItem className="md:basis-1/2 lg:basis-1/3">...</CarouselItem>
   </CarouselContent>
-</Carousel>
+</Carousel> */}
 
     </div>
   );
