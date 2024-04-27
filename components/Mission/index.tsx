@@ -16,7 +16,7 @@ function Mission() {
         <div className="flex lg:flex-row flex-col gap-20">
           <div className="flex flex-col gap-10 lg:w-3/5">
             <div className="flex flex-col gap-5">
-              <div className="text-[#FF9900] lg:text-3xl text-2xl">
+              <div className="text-[#FF9900] font-bold lg:text-3xl text-2xl">
                 Our Mission
               </div>
               <div className="text-white lg:text-xl text-sm text-justify">
@@ -34,7 +34,7 @@ function Mission() {
               <hr />
             </div>
             <div className="flex flex-col gap-5">
-              <div className="text-[#FF9900] lg:text-3xl text-2xl">
+              <div className="text-[#FF9900] font-bold lg:text-3xl text-2xl">
                 Our Vision
               </div>
               <div className="text-white lg:text-xl text-sm lg:text-left text-justify">
