@@ -1,8 +1,8 @@
 "use client";
 
-// const BubbleUnderlay = dynamic(
-//   () => import("@/components/ui/BubbleUnderLay")
-// );
+const BubbleUnderlay = dynamic(
+  () => import("@/components/custom/Bubble")
+);
 
 import About from "@/components/About";
 import { Faqs } from "@/components/Faqs";
@@ -91,17 +91,17 @@ export default function Home() {
 
   return (
     <>
-      {/* <BubbleUnderlay
+      <BubbleUnderlay
           className={clsx(
             "fixed",
             "top-0 left-0",
             "w-full h-full",
-            "-z-10",
+            "z-10",
             "pointer-events-none",
             "select-none"
           )}
-        /> */}
-      <div className=" ">
+        />
+      <div className="bg-black z-20">
         <BackgroundBeams />
         <div className="">
           <div className="hidden sm:flex flex-row max-w-full ml-auto z-30">

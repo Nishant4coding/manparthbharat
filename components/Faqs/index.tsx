@@ -8,14 +8,14 @@ import {
 export function Faqs() {
   return (
     <section>
-     <div className="relative w-full z-20">
+     {/* <div className="relative w-full z-20">
   <div className="absolute top-40 right-0 w-40 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100 pointer-events-none"></div>
   <div className="absolute top-52 left-0 w-40 h-40 bg-[#FFD700] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100 pointer-events-none"></div>
   <div className="absolute top-20 left-1/2 w-40 h-40 bg-[#FF9900] rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-100 pointer-events-none"></div>
-</div>
+</div> */}
 
 
-      <div className="flex lg:flex-row flex-col bg-black lg:p-20 p-5 lg:gap-10 gap-5 lg:pr-32 z-200">
+      <div className="flex lg:flex-row flex-col lg:p-20 p-5 lg:gap-10 gap-5 lg:pr-32 z-200">
         <div className="flex flex-col lg:gap-8 gap-2">
           <span className="text-white font-bold text-xl">
             Need To Know --&gt;

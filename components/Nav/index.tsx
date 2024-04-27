@@ -6,7 +6,7 @@ import logo from "@/public/mlogo.png";
 
 function Navbar() {
   return (
-    <nav className="bg-black  fixed top-0 w-full z-10 ">
+    <nav className=" fixed top-0 w-full z-10 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="#"
