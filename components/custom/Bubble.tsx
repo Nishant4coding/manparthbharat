@@ -70,7 +70,7 @@ function BubbleUnderlay({
 export default memo(BubbleUnderlay);
 
 const Bubble = memo(
-  ({ index, color, size }: { index: number; color: string; size: number }) => {
+    function BubbleComponent({ index, color, size }: { index: number; color: string; size: number }) {
     let newValInterval = 20000; // 20s
     const positionX = useMotionValue(
       (Math.random() * 1.5 - 0.5) * window.innerWidth
@@ -154,5 +154,7 @@ const Bubble = memo(
         />
       </motion.div>
     );
+    
   }
 );
+Bubble.displayName = "Bubble";
