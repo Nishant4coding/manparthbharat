@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { SparklesCore } from "../ui/sparkles";
+import { SparklesCore } from "@/components/ui/sparkles"
 import Image from "next/image";
 
 function Hero() {
