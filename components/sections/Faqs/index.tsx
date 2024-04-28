@@ -30,7 +30,7 @@ export function Faqs() {
         <Accordion
           type="single"
           collapsible
-          className="lg:w-2/3 w-full shadow-md shadow-yellow-700 bg-tranparent lg:p-10 p-5 lg:rounded-xl rounded-lg text-white text-left lg:text-2xl overflow-hidden z-20000"
+          className="lg:w-2/3 w-full  bg-tranparent lg:p-10 p-5 lg:rounded-xl rounded-lg text-white text-left lg:text-2xl overflow-hidden z-20000"
         >
           <AccordionItem value="item-1">
             <AccordionTrigger>What is Training Program ?</AccordionTrigger>

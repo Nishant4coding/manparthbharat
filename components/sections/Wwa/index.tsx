@@ -1,3 +1,4 @@
+import Line from '@/components/custom/Line'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -24,7 +25,7 @@ function Wwa() {
             <div className='text-white lg:text-xl text-sm'>
             We are committed to building a Gurukul education system that honors Indias ancient heritage while embracing modernity. Our Gurukuls serve as sanctuaries of knowledge, where students are not only taught academic subjects but also instilled with moral values, ethical principles, and a deep sense of responsibility towards humanity.
             </div>
-            <hr />
+            <Line/>
         </div>
         <div className='flex flex-col gap-5'>
             <div className='text-[#FF9900] lg:text-3xl text-2xl'>
@@ -33,7 +34,7 @@ function Wwa() {
             <div className='text-white lg:text-xl text-sm lg:text-left text-justify'>
             At Manparth, we recognize the immense potential of Indias youth to become global leaders and ambassadors of change. Through our transformative educational programs and initiatives, we empower young minds to unlock their full potential, cultivate critical thinking skills, and embrace diversity. We believe that by nurturing the next generation of visionary leaders, we can propel Bharat towards its rightful place as a Vishwa Guru—a beacon of knowledge, compassion, and enlightenment for the world.
             </div>
-            <hr />
+            <Line/>
         </div>
 
       </div>

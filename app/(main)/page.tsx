@@ -2,6 +2,7 @@
 
 const BubbleUnderlay = dynamic(() => import("@/components/custom/Bubble"));
 
+import Line from "@/components/custom/Line";
 import { Faqs } from "@/components/sections/Faqs";
 import Footer from "@/components/sections/Footer";
 import Future from "@/components/sections/Future";
@@ -97,20 +98,25 @@ export default function Home() {
       <div className="bg-black z-20">
         <BackgroundBeams />
         <div className="">
-          <div className="hidden sm:flex flex-row max-w-full ml-auto z-30">
-            <div className="ontop fixed flex px-1 h- items-center justify-center right-0">
-              <div className="flex flex-col justify-center gap-y-6 items-center ">
-                <div className=" mt-40 uppercase text-sm font-semibold origin-center rotate-[-90deg] tracking-wide ">
-                  {/* <h1 className="text-white">------------------</h1> */}
-                </div>
-                {/* <hr className="text-white h-20" /> */}
-                <Links direction="flex-col" />
-                <div className="mt-20 uppercase text-sm font-semibold origin-center rotate-[90deg] tracking-wide">
-                  <h1 className="text-white hover:text-[#FF9900]">ManParth</h1>
-                </div>
-              </div>
-            </div>
-          </div>
+  <div className="hidden sm:flex flex-row max-w-full ml-auto z-30">
+    <div className="ontop fixed flex px-1 items-center justify-center right-0">
+      <div className="flex flex-col justify-center gap-y-6 items-center ">
+          <Line/>
+        <div className=" uppercase text-sm font-semibold origin-center rotate-[-90deg] tracking-wide">
+          
+        </div>
+        {/* <hr className="text-white h-20" /> */}
+        <Links direction="flex-col" />
+        <div className="relative">
+          <div className="absolute h-0.5 w-full bg-white"></div>
+        </div>
+        <div className="mt-20 uppercase text-sm font-semibold origin-center rotate-[90deg] tracking-wide">
+          <h1 className="text-white hover:text-[#FF9900]">ManParth</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
           <Navbar />
           <Hero />
