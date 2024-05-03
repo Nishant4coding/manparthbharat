@@ -28,7 +28,7 @@ export function Faqs() {
           scale: 1,
         }}
         transition={{
-          delay: 1,
+          delay: 0.5,
           duration: 0.5,
         }} className="flex lg:flex-row flex-col lg:p-20 p-5 lg:gap-10 gap-5 lg:pr-32 z-200">
         <div className="flex flex-col lg:gap-8 gap-2">
