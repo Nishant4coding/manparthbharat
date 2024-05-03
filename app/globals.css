@@ -1,4 +1,28 @@
 @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .fr {
+    @apply flex flex-row;
+  }
+  .fc {
+    @apply flex flex-col;
+  }
+  .fss {
+    @apply flex items-start justify-start;
+  }
+  .fcc {
+    @apply flex items-center justify-center;
+  }
+  .fsc {
+    @apply flex items-center justify-start;
+  }
+  .fce {
+    @apply flex items-center justify-evenly;
+  }
+  .fcb {
+    @apply flex items-center justify-between;
+  }
+}
