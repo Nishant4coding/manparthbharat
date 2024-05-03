@@ -6,10 +6,10 @@ import logo from '@/public/mlogo.png'
 
 function Testimonial() {
   return (
-    <div className="flex flex-col lg:p-20 p-5 text-white bg-black gap-10">
+    <div className="flex flex-col lg:p-20 p-5 text-white bg-black gap-10 z-40">
       
     <div className="text-5xl text-center font-bold text-[#FFD700] ">What people <span className="text-[#FF9900] text-5xl text-center font-bold">say</span> about us</div>
-    <div className="flex lg:flex-row flex-col justify-between  items-center justify-center ">
+    <div className="flex lg:flex-row flex-col justify-between  ">
       <div className="flex flex-col items-center justify-center p-10 text-white bg-black">
         <div className="w-64 rounded-xl bg-black shadow-yellow-700 shadow-sm  p-6 shadow-lg sm:w-96  overflow-hidden ">
           <div className="relative w-full z-20">
