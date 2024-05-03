@@ -4,6 +4,8 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import BackToTop from '@/public/Assets/quote.svg'
+import { ArrowUpFromDot } from 'lucide-react';
+
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,9 +36,10 @@ const BackToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <div className='fixed bottom-10 lg:right-10 right-2 cursor-pointer z-40 text-[#FF9900] text-7xl'  onClick={scrollToTop}>
-        {/* <Image src={BackToTop} alt='BacktoTop' width={32} height={32}/> */}^
-        </div>
+        <div className='fixed bottom-10 flex items-center justify-center lg:right-10 right-2 cursor-pointer z-40 text-[#FF9900] text-7xl w-10 h-10 rounded-full bg-yellow-100 '  onClick={scrollToTop}>
+        {/* <Image src={BackToTop} alt='BacktoTop' width={32} height={32}/> */}
+        <ArrowUpFromDot strokeWidth={4}/>       
+         </div>
       )}
      
        

@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { motion } from "framer-motion";
 
 export function Faqs() {
   return (
@@ -15,7 +16,21 @@ export function Faqs() {
 </div> */}
 
 
-      <div className="flex lg:flex-row flex-col lg:p-20 p-5 lg:gap-10 gap-5 lg:pr-32 z-200">
+      <motion.div
+        initial={{
+          opacity: 0,
+          // filter: "blur(1rem)",
+          scale: 0.9,
+        }}
+        whileInView={{
+          opacity: 1,
+          // filter: "blur(0rem)",
+          scale: 1,
+        }}
+        transition={{
+          delay: 1,
+          duration: 0.5,
+        }} className="flex lg:flex-row flex-col lg:p-20 p-5 lg:gap-10 gap-5 lg:pr-32 z-200">
         <div className="flex flex-col lg:gap-8 gap-2">
           <span className="text-white font-bold text-xl">
             Need To Know --&gt;
@@ -58,7 +73,7 @@ export function Faqs() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
-      </div>
+      </motion.div>
     </section>
   );
 }

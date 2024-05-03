@@ -6,7 +6,7 @@ import React from 'react'
 
 function Wwa() {
   return (
-    <div className='text-[#FFD700] lg:p-20 p-5 flex lg:flex-row flex-col bg-black lg:gap-32'>
+    <div className='text-[#FFD700] lg:pl-20 lg:pr-20 p-5 flex lg:flex-row flex-col bg-black lg:gap-32 gap-10'>
       <motion.div
         initial={{
           opacity: 0,
@@ -22,7 +22,7 @@ function Wwa() {
           delay: 0.5,
           duration: 0.5,
         }}className='flex flex-col lg:w-2/5 gap-10'>
-        <div className='text-[#FFD700] lg:text-6xl text-3xl font-bold'>
+        <div className='text-[#FFD700] lg:text-6xl text-5xl font-bold'>
             Get to <span className='text-[#FF9900]'>Know</span> Better
         </div>
         <div className='text-white text-justify lg:text-xl text-md '>
@@ -48,7 +48,7 @@ function Wwa() {
           delay: 1,
           duration: 0.5,
         }} className='flex flex-col gap-5'>
-            <div className='text-[#FF9900] lg:text-3xl text-2xl'>
+            <div className='text-[#FF9900] lg:text-3xl text-2xl font-bold'>
                 Our commitment
             </div>
             <div className='text-white lg:text-xl text-sm'>
@@ -71,7 +71,7 @@ function Wwa() {
           delay: 1,
           duration: 0.5,
         }} className='flex flex-col gap-5'>
-            <div className='text-[#FF9900] lg:text-3xl text-2xl'>
+            <div className='text-[#FF9900] lg:text-3xl text-2xl font-bold'>
                 Transforming youth
             </div>
             <div className='text-white lg:text-xl text-sm lg:text-left text-justify'>

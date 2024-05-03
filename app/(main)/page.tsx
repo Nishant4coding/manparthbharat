@@ -125,7 +125,7 @@ export default function Home() {
           <Future />
           <Mission />
           <Faqs />
-          <Testimonial />
+          {/* <Testimonial /> */}
           <Footer />
         </div>
       </div>
