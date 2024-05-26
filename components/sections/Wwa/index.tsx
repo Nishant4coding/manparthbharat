@@ -19,10 +19,10 @@ function Wwa() {
           scale: 1,
         }}
         transition={{
-          delay: 0.5,
-          duration: 0.5,
-        }}className='flex flex-col lg:w-2/5 gap-10'>
-        <div className='text-[#FFD700] lg:text-6xl text-5xl font-bold'>
+          delay: 0.2,
+          duration: 0.3,
+        }}className='flex flex-col lg:w-2/5 gap-10 '>
+        <div className='text-[#FFD700] lg:text-6xl text-5xl font-bold -z-2000'>
             Get to <span className='text-[#FF9900]'>Know</span> Better
         </div>
         <div className='text-white text-justify lg:text-xl text-md '>
@@ -45,8 +45,8 @@ function Wwa() {
           scale: 1,
         }}
         transition={{
-          delay: 1,
-          duration: 0.5,
+          delay: 0.5,
+          duration: 0.3,
         }} className='flex flex-col gap-5'>
             <div className='text-[#FF9900] lg:text-3xl text-2xl font-bold'>
                 Our commitment
@@ -68,8 +68,8 @@ function Wwa() {
           scale: 1,
         }}
         transition={{
-          delay: 1,
-          duration: 0.5,
+          delay: 0.5,
+          duration: 0.3,
         }} className='flex flex-col gap-5'>
             <div className='text-[#FF9900] lg:text-3xl text-2xl font-bold'>
                 Transforming youth

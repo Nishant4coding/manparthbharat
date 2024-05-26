@@ -3,6 +3,7 @@
 const BubbleUnderlay = dynamic(() => import("@/components/custom/Bubble"));
 
 import Line from "@/components/custom/Line";
+import About from "@/components/sections/About";
 import { Faqs } from "@/components/sections/Faqs";
 import Footer from "@/components/sections/Footer";
 import Future from "@/components/sections/Future";
@@ -15,6 +16,7 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 import clsx from "clsx";
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 export default function Home() {
   const words = [
@@ -30,11 +32,20 @@ export default function Home() {
   const Links = ({ direction }: LinkProp) => {
     return (
       <div
-        className={`flex ${direction} justify-between gap-y-6 mt-16  ${
+        className={`flex ${direction} justify-between gap-y-6  ${
           direction === "row" ? "gap-x-6" : ""
         }`}
       >
-        <a
+        {/* <Link
+          href="https://twitter.com/ecellgu?s=20&t=vFxkKJJOyuDxqgjbNkXRrQ"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="rotate-[-90deg] h-60px">
+            <Line />
+          </div>
+        </Link> */}
+        <Link
           href="https://twitter.com/ecellgu?s=20&t=vFxkKJJOyuDxqgjbNkXRrQ"
           target="_blank"
           rel="noreferrer"
@@ -44,8 +55,8 @@ export default function Home() {
             strokeWidth={2}
             className="group-hover:scale-125 hover:text-[#FF9900] text-white transition-transform duration-250 ease-in-out"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.instagram.com/ecellgu/"
           target="_blank"
           rel="noreferrer"
@@ -56,8 +67,8 @@ export default function Home() {
             strokeWidth={2}
             className="group-hover:scale-125 text-white hover:text-[#FF9900] transition-transform duration-250 ease-in-out"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.facebook.com/ecellgu "
           target="_blank"
           rel="noreferrer"
@@ -67,8 +78,8 @@ export default function Home() {
             strokeWidth={2}
             className="group-hover:scale-125 text-white hover:text-[#FF9900] transition-transform duration-250 ease-in-out"
           />
-        </a>
-        <a
+        </Link>
+        <Link
           href="https://www.linkedin.com/company/entrepreneurship-cell-galgotias-university/"
           target="_blank"
           rel="noreferrer"
@@ -78,14 +89,14 @@ export default function Home() {
             strokeWidth={2}
             className="group-hover:scale-125 text-white hover:text-[#FF9900] transition-transform duration-250 ease-in-out"
           />
-        </a>
+        </Link>
       </div>
     );
   };
 
   return (
     <>
-      <BubbleUnderlay
+      {/* <BubbleUnderlay
         className={clsx(
           "fixed",
           "top-0 left-0",
@@ -94,34 +105,34 @@ export default function Home() {
           "pointer-events-none",
           "select-none"
         )}
-      />
+      /> */}
       <div className="bg-black z-20">
-        <BackgroundBeams />
+        {/* <BackgroundBeams /> */}
         <div className="">
-  <div className="hidden sm:flex flex-row max-w-full ml-auto z-30">
-    <div className="ontop fixed flex px-1 items-center justify-center right-0">
-      <div className="flex flex-col justify-center gap-y-6 items-center ">
-          <Line/>
-        <div className=" uppercase text-sm font-semibold origin-center rotate-[-90deg] tracking-wide">
-          
-        </div>
-        {/* <hr className="text-white h-20" /> */}
-        <Links direction="flex-col" />
-        <div className="relative">
-          <div className="absolute h-0.5 w-full bg-white"></div>
-        </div>
-        <div className="mt-20 uppercase text-sm font-semibold origin-center rotate-[90deg] tracking-wide">
-          <h1 className="text-white hover:text-[#FF9900]">ManParth</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-
+          <div className="hidden sm:flex flex-row ml-auto z-30">
+            <div className=" fixed flex px-1 items-center justify-center right-0 ">
+              <div className="flex flex-col justify-center gap-y-6 items-center mt-52 ">
+                <div className="w-[2px] h-40 bg-gradient-to-b from-[#FF9900]   via-[#FFD700] to-[#B45700]"></div>
+                <div className=" uppercase text-sm font-semibold origin-center tracking-wide"></div>
+                {/* <hr className="text-white h-20" /> */}
+                <Links direction="flex-col" />
+                {/* <div className="relative">
+                  <div className="absolute h-0.5 w-full bg-white"></div>
+                </div> */}
+                <div className="mt-10 uppercase text-sm font-semibold origin-center rotate-[90deg] tracking-wide">
+                  <h1 className="text-white hover:text-[#FF9900]">ManParth</h1>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <Navbar />
           <Hero />
+       
+
           <Wwa />
-          {/* <About/> */}
+          {/* <Linkbout/> */}
+          <About/>
           <Future />
           <Mission />
           <Faqs />

@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 function Mission() {
  
   return (
-    <section className="bg-white z-40">
+    <section className="bg-[#292A2C] z-40 relative">
       <div
        
         className="lg:p-20 p-8  rounded-t-3xl "

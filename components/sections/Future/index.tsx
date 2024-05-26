@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 function Future() {
   return (
-    <div className="w-full flex justify-center items-center overflow-hidden uppercase bg-white">
+    <div className="w-full flex justify-center items-center overflow-hidden uppercase bg-[#292A2C] relative">
       <div className="w-full fcc">
         <Marquee speed={150} pauseOnHover autoFill>
           <div className="text-3xl m-4 text-transparent bg-clip-text bg-gradient-to-r from-[#FF9900] to-[#FFD700] font-extrabold p-1 relative drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">creative</div>
